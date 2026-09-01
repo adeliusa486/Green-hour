@@ -1,5 +1,7 @@
 # green-hour
 
+![Overview](docs/overview.jpg)
+
 Simulator, analytic oracles, and reproducible experiments for **"When Every
 Agent Chases the Same Green Hour: Equilibrium Inefficiency and Mechanism Design
 for Competing Carbon-Aware Datacenter Schedulers."**
