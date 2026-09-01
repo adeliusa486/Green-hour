@@ -1,0 +1,87 @@
+{
+  "eid": "V6",
+  "title": "Gap decomposition",
+  "provenance": "SYNTHETIC",
+  "git": "no-git",
+  "config": {
+    "n": 16,
+    "T": 48,
+    "seeds": 8,
+    "kappas": [
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ]
+  },
+  "cfg_hash": "f6976222429f",
+  "scalars": {
+    "TotalGapPct": 5.417753429849959,
+    "AcctPct": 5.072206336071705,
+    "StratPct": 0.34554709377825343,
+    "AcctShare": 93.62194868680425,
+    "NaiveRatio": 1.1413779108943165,
+    "NashRatio": 1.0541775342984996,
+    "MefStaticRatio": 1.2036128197445473,
+    "MefRespRatio": 1.000060514278642
+  },
+  "rows": [
+    {
+      "kappa": 0.5,
+      "nash": 1.0607270822714803,
+      "wedge_fixed": 1.0014844721224179,
+      "planner": 1.0,
+      "total_gap": 0.06072708227148027,
+      "accounting": 0.0592426101490624,
+      "strategic": 0.001484472122417868,
+      "accounting_share": 0.9755550231150323,
+      "naive": 1.0997118965858834,
+      "mef_static": 1.0952952180910607,
+      "mef_responsive": 1.0000565462196649,
+      "carbon_agnostic": 1.0662340101896075
+    },
+    {
+      "kappa": 1.0,
+      "nash": 1.0541775342984996,
+      "wedge_fixed": 1.0034554709377825,
+      "planner": 1.0,
+      "total_gap": 0.054177534298499586,
+      "accounting": 0.05072206336071705,
+      "strategic": 0.0034554709377825343,
+      "accounting_share": 0.9362194868680425,
+      "naive": 1.1413779108943165,
+      "mef_static": 1.2036128197445473,
+      "mef_responsive": 1.000060514278642,
+      "carbon_agnostic": 1.0512435280649561
+    },
+    {
+      "kappa": 2.0,
+      "nash": 1.0524269773410004,
+      "wedge_fixed": 1.0066826639827868,
+      "planner": 1.0,
+      "total_gap": 0.052426977341000436,
+      "accounting": 0.045744313358213606,
+      "strategic": 0.0066826639827868295,
+      "accounting_share": 0.8725338685974432,
+      "naive": 1.236505741240663,
+      "mef_static": 1.4239578412196536,
+      "mef_responsive": 1.000024361311663,
+      "carbon_agnostic": 1.0393627013471314
+    },
+    {
+      "kappa": 4.0,
+      "nash": 1.0579582627844348,
+      "wedge_fixed": 1.0063432260324041,
+      "planner": 1.0,
+      "total_gap": 0.05795826278443483,
+      "accounting": 0.05161503675203072,
+      "strategic": 0.0063432260324041145,
+      "accounting_share": 0.8905552767170303,
+      "naive": 1.4296653195504667,
+      "mef_static": 1.8466881931827963,
+      "mef_responsive": 1.000052985871643,
+      "carbon_agnostic": 1.035701325908336
+    }
+  ],
+  "runtime_s": 49.7
+}

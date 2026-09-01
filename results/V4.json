@@ -1,0 +1,102 @@
+{
+  "eid": "V4",
+  "title": "SHADE variant taxonomy and damping stability",
+  "provenance": "SYNTHETIC",
+  "git": "no-git",
+  "config": {},
+  "cfg_hash": "44136fa355b3",
+  "scalars": {
+    "GammaPaper": 0.55,
+    "NFailAtPaperGamma": "8, 16, 32, 64",
+    "MaxStableGammaN32": 0.07
+  },
+  "rows": [
+    {
+      "part": "variants",
+      "variant": "own retained + subtracted",
+      "fp_marginal": "m + 2by",
+      "ratio": 1.000000000000003,
+      "rounds": 202,
+      "note": "correct"
+    },
+    {
+      "part": "variants",
+      "variant": "own dropped + NOT subtr.",
+      "fp_marginal": "m + 2by",
+      "ratio": 1.1378998787418193,
+      "rounds": 6000,
+      "note": "correct (LP)"
+    },
+    {
+      "part": "variants",
+      "variant": "own dropped + subtracted",
+      "fp_marginal": "m + 2by - b x_i",
+      "ratio": 1.0038628706485624,
+      "rounds": 6000,
+      "note": "under-corrects  <- as published"
+    },
+    {
+      "part": "variants",
+      "variant": "own retained + NOT subtr.",
+      "fp_marginal": "m + 2by + b x_i",
+      "ratio": 1.0002084868336374,
+      "rounds": 100,
+      "note": "over-corrects"
+    },
+    {
+      "part": "stability",
+      "n": 2,
+      "gamma055_converges": true,
+      "max_stable_gamma": 0.55,
+      "rule_gamma": 0.6666666666666666,
+      "rounds_at_rule": 50,
+      "ratio": 1.000000000000005
+    },
+    {
+      "part": "stability",
+      "n": 4,
+      "gamma055_converges": true,
+      "max_stable_gamma": 0.55,
+      "rule_gamma": 0.4,
+      "rounds_at_rule": 105,
+      "ratio": 1.0000000000000087
+    },
+    {
+      "part": "stability",
+      "n": 8,
+      "gamma055_converges": false,
+      "max_stable_gamma": 0.35,
+      "rule_gamma": 0.2222222222222222,
+      "rounds_at_rule": 202,
+      "ratio": 1.000000000000003
+    },
+    {
+      "part": "stability",
+      "n": 16,
+      "gamma055_converges": false,
+      "max_stable_gamma": 0.2,
+      "rule_gamma": 0.11764705882352941,
+      "rounds_at_rule": 397,
+      "ratio": 1.0000000000000107
+    },
+    {
+      "part": "stability",
+      "n": 32,
+      "gamma055_converges": false,
+      "max_stable_gamma": 0.07,
+      "rule_gamma": 0.06060606060606061,
+      "rounds_at_rule": 786,
+      "ratio": 0.9999999999999991
+    },
+    {
+      "part": "stability",
+      "n": 64,
+      "gamma055_converges": false,
+      "max_stable_gamma": 0.03,
+      "rule_gamma": 0.03076923076923077,
+      "rounds_at_rule": 1498,
+      "ratio": 0.9999999999999595
+    }
+  ],
+  "runtime_s": 394.5
+}

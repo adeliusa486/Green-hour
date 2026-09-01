@@ -1,0 +1,99 @@
+{
+  "eid": "V1",
+  "title": "Model-implied intercept and the eta cap",
+  "provenance": "ARITHMETIC on the draft's Table 1",
+  "git": "no-git",
+  "config": {
+    "table1": [
+      [
+        "CAISO",
+        181,
+        433
+      ],
+      [
+        "ERCOT",
+        249,
+        448
+      ],
+      [
+        "PJM",
+        358,
+        497
+      ],
+      [
+        "GB",
+        122,
+        391
+      ],
+      [
+        "DE",
+        203,
+        419
+      ]
+    ]
+  },
+  "cfg_hash": "f31e53df5773",
+  "scalars": {
+    "NumImpossible": 3.0,
+    "EtaCap": 0.5,
+    "BoundCap": 3.0,
+    "EtaMaxClaimed": 0.6879795396419437,
+    "BoundMaxClaimed": 4.807377049180327,
+    "MeanRatio": 2.169737515719444,
+    "MeanBound": 3.2546062735791663,
+    "BoundAtMeanEta": 3.011266117743095
+  },
+  "rows": [
+    {
+      "region": "CAISO",
+      "aef": 181,
+      "mef": 433,
+      "ratio": 2.3922651933701657,
+      "eta": 0.581986143187067,
+      "poa_bound": 3.588397790055249,
+      "alpha_implied": -71,
+      "feasible": false
+    },
+    {
+      "region": "ERCOT",
+      "aef": 249,
+      "mef": 448,
+      "ratio": 1.7991967871485943,
+      "eta": 0.4441964285714286,
+      "poa_bound": 2.698795180722892,
+      "alpha_implied": 50,
+      "feasible": true
+    },
+    {
+      "region": "PJM",
+      "aef": 358,
+      "mef": 497,
+      "ratio": 1.388268156424581,
+      "eta": 0.2796780684104627,
+      "poa_bound": 2.0824022346368714,
+      "alpha_implied": 219,
+      "feasible": true
+    },
+    {
+      "region": "GB",
+      "aef": 122,
+      "mef": 391,
+      "ratio": 3.2049180327868854,
+      "eta": 0.6879795396419437,
+      "poa_bound": 4.807377049180327,
+      "alpha_implied": -147,
+      "feasible": false
+    },
+    {
+      "region": "DE",
+      "aef": 203,
+      "mef": 419,
+      "ratio": 2.064039408866995,
+      "eta": 0.5155131264916468,
+      "poa_bound": 3.096059113300493,
+      "alpha_implied": -13,
+      "feasible": false
+    }
+  ],
+  "runtime_s": 0.1
+}

@@ -1,0 +1,142 @@
+{
+  "eid": "V3",
+  "title": "Two-slot closed forms",
+  "provenance": "SYNTHETIC",
+  "git": "no-git",
+  "config": {
+    "D": 100.0,
+    "beta": 1.0
+  },
+  "cfg_hash": "87700f16dff7",
+  "scalars": {
+    "EqWorstRelErr": 0.0015455357983849495,
+    "CornerWorstRelErr": 2.000019776460249e-07,
+    "SavingWorstRelErr": 5.5006239563226396e-15,
+    "MinOperators": 4.0
+  },
+  "rows": [
+    {
+      "kind": "corner_threshold",
+      "n": 4,
+      "predicted": 125.0,
+      "measured": 124.99997500009385
+    },
+    {
+      "kind": "corner_threshold",
+      "n": 8,
+      "predicted": 112.5,
+      "measured": 112.4999775002891
+    },
+    {
+      "kind": "corner_threshold",
+      "n": 16,
+      "predicted": 106.25,
+      "measured": 106.24997874978988
+    },
+    {
+      "kind": "corner_threshold",
+      "n": 32,
+      "predicted": 103.125,
+      "measured": 103.12497937479606
+    },
+    {
+      "kind": "corner_threshold",
+      "n": 64,
+      "predicted": 101.5625,
+      "measured": 101.56247968766863
+    },
+    {
+      "kind": "saving",
+      "n": 8,
+      "delta": 143.75,
+      "q_star": 0.0892857142857143,
+      "q_grid": 0.0893,
+      "saving_correct": 139.50892857142858,
+      "saving_sim": 139.50892857142935,
+      "saving_plan": 122.0703125,
+      "plan_error_pct": -12.500000000000488
+    },
+    {
+      "kind": "saving",
+      "n": 16,
+      "delta": 146.875,
+      "q_star": 0.10833333333333334,
+      "q_grid": 0.10830000000000001,
+      "saving_correct": 220.05208333333334,
+      "saving_sim": 220.05208333333394,
+      "saving_plan": 206.298828125,
+      "plan_error_pct": -6.2500000000002585
+    },
+    {
+      "kind": "saving",
+      "n": 32,
+      "delta": 148.4375,
+      "q_star": 0.11693548387096775,
+      "q_grid": 0.1169,
+      "saving_correct": 264.9319556451613,
+      "saving_sim": 264.931955645161,
+      "saving_plan": 256.65283203125,
+      "plan_error_pct": -3.1249999999998925
+    },
+    {
+      "kind": "saving",
+      "n": 64,
+      "delta": 149.21875,
+      "q_star": 0.12103174603174605,
+      "q_grid": 0.12100000000000001,
+      "saving_correct": 288.3959573412698,
+      "saving_sim": 288.39595734127033,
+      "saving_plan": 283.8897705078125,
+      "plan_error_pct": -1.5625000000001676
+    },
+    {
+      "kind": "window",
+      "n": 2,
+      "lo": 150.0,
+      "hi": 100.0,
+      "width": -50.0,
+      "nonempty": false
+    },
+    {
+      "kind": "window",
+      "n": 3,
+      "lo": 133.33333333333331,
+      "hi": 133.33333333333334,
+      "width": 2.842170943040401e-14,
+      "nonempty": false
+    },
+    {
+      "kind": "window",
+      "n": 4,
+      "lo": 125.0,
+      "hi": 150.0,
+      "width": 25.0,
+      "nonempty": true
+    },
+    {
+      "kind": "window",
+      "n": 5,
+      "lo": 120.0,
+      "hi": 160.0,
+      "width": 40.0,
+      "nonempty": true
+    },
+    {
+      "kind": "window",
+      "n": 8,
+      "lo": 112.5,
+      "hi": 175.0,
+      "width": 62.5,
+      "nonempty": true
+    },
+    {
+      "kind": "window",
+      "n": 32,
+      "lo": 103.125,
+      "hi": 193.75,
+      "width": 90.625,
+      "nonempty": true
+    }
+  ],
+  "runtime_s": 143.5
+}

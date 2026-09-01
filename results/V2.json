@@ -1,0 +1,334 @@
+{
+  "eid": "V2",
+  "title": "Signal precision by regime, local behaviour at small sigma",
+  "provenance": "SYNTHETIC",
+  "git": "no-git",
+  "config": {
+    "D": 100.0,
+    "beta": 1.0,
+    "n": 16,
+    "draws": 20000,
+    "regimes": {
+      "A interior": {
+        "delta": 0.0,
+        "s_grid": [
+          0.0,
+          0.3125,
+          0.625,
+          0.9375,
+          1.25,
+          1.875,
+          2.5,
+          3.75
+        ]
+      },
+      "B corner (marginal)": {
+        "delta": 106.25,
+        "s_grid": [
+          0.0,
+          0.3125,
+          0.625,
+          0.9375,
+          1.25,
+          1.875,
+          2.5,
+          3.75
+        ]
+      },
+      "C corner (mid-window)": {
+        "delta": 146.875,
+        "s_grid": [
+          0.0,
+          4.0,
+          8.0,
+          12.0,
+          16.0,
+          24.0,
+          32.0,
+          48.0
+        ]
+      },
+      "D corner (gap too wide)": {
+        "delta": 271.875,
+        "s_grid": [
+          0.0,
+          4.0,
+          8.0,
+          12.0,
+          16.0,
+          24.0,
+          32.0,
+          48.0
+        ]
+      }
+    }
+  },
+  "cfg_hash": "a841c7fd3d78",
+  "scalars": {
+    "InteriorC1": -7.559822353585925e-05,
+    "InteriorC2": 0.05553353120101231,
+    "InteriorC2Pred": 0.05536332179930796,
+    "InteriorC2RelErr": 0.003074407318284784,
+    "CornerC1": -69.68219080460604,
+    "Falsified": "yes"
+  },
+  "rows": [
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 0.0,
+      "cost": 5000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 0.3125,
+      "cost": 5000.005415910622,
+      "delta_cost": 0.005415910622105002
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 0.625,
+      "cost": 5000.021663642568,
+      "delta_cost": 0.02166364256754605
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 0.9375,
+      "cost": 5000.048743257699,
+      "delta_cost": 0.04874325769924326
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 1.25,
+      "cost": 5000.086642293429,
+      "delta_cost": 0.08664229342866747
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 1.875,
+      "cost": 5000.195104784746,
+      "delta_cost": 0.19510478474603588
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 2.5,
+      "cost": 5000.348367545772,
+      "delta_cost": 0.3483675457719073
+    },
+    {
+      "regime": "A interior",
+      "delta": 0.0,
+      "at_corner": false,
+      "sigma": 3.75,
+      "cost": 5000.799932403179,
+      "delta_cost": 0.7999324031789001
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 0.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 0.3125,
+      "cost": 9978.340843583592,
+      "delta_cost": -21.659156416408223
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 0.625,
+      "cost": 9956.914743587071,
+      "delta_cost": -43.085256412929084
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 0.9375,
+      "cost": 9935.721700010488,
+      "delta_cost": -64.27829998951165
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 1.25,
+      "cost": 9914.761712853946,
+      "delta_cost": -85.23828714605406
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 1.875,
+      "cost": 9873.540907800736,
+      "delta_cost": -126.45909219926398
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 2.5,
+      "cost": 9833.252328427272,
+      "delta_cost": -166.747671572728
+    },
+    {
+      "regime": "B corner (marginal)",
+      "delta": 106.25,
+      "at_corner": true,
+      "sigma": 3.75,
+      "cost": 9755.472390165945,
+      "delta_cost": -244.5276098340546
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 0.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 4.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 8.0,
+      "cost": 9999.906996687378,
+      "delta_cost": -0.09300331262238615
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 12.0,
+      "cost": 9991.30211812585,
+      "delta_cost": -8.69788187414997
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 16.0,
+      "cost": 9949.654447377321,
+      "delta_cost": -50.34555262267895
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 24.0,
+      "cost": 9823.751022153145,
+      "delta_cost": -176.24897784685527
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 32.0,
+      "cost": 9739.18225609039,
+      "delta_cost": -260.8177439096107
+    },
+    {
+      "regime": "C corner (mid-window)",
+      "delta": 146.875,
+      "at_corner": true,
+      "sigma": 48.0,
+      "cost": 9699.595801262369,
+      "delta_cost": -300.4041987376313
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 0.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 4.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 8.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 12.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 16.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 24.0,
+      "cost": 10000.0,
+      "delta_cost": 0.0
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 32.0,
+      "cost": 10000.39470094101,
+      "delta_cost": 0.3947009410094324
+    },
+    {
+      "regime": "D corner (gap too wide)",
+      "delta": 271.875,
+      "at_corner": true,
+      "sigma": 48.0,
+      "cost": 10037.05233429856,
+      "delta_cost": 37.0523342985598
+    }
+  ],
+  "runtime_s": 142.2
+}
