@@ -26,6 +26,16 @@ The theory and the simulator are complete and tested. The empirical calibration
 see [Provenance](#provenance) below. Nothing here should be read as a measured
 result about any real balancing authority.
 
+## Protocol
+
+![SHADE architecture](docs/architecture.jpg)
+
+Operators solve locally and emit only masked per-slot intentions. The
+clearinghouse combines a differentially private aggregate with the system
+operator's dispatch slope and broadcasts one shadow adder, identical for every
+operator; each operator subtracts its own contribution locally. Nothing inside
+the dashed boundary is ever disclosed.
+
 ## Install
 
 Requires Python 3.9+, `numpy` and `scipy`. Nothing else.
