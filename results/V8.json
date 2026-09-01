@@ -1,0 +1,73 @@
+{
+  "eid": "V8",
+  "title": "Misreporting of intentions",
+  "provenance": "SYNTHETIC",
+  "git": "81785e2",
+  "config": {
+    "ns": [
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "T": 32,
+    "seeds": 4,
+    "kappa": 1.0
+  },
+  "cfg_hash": "528337ac8e6c",
+  "scalars": {
+    "BestGainPct": 0.44475057490395187,
+    "BestGainN": 2.0,
+    "MaxSocialPct": 0.049968811266162844,
+    "Deterred": "no"
+  },
+  "rows": [
+    {
+      "n": 2,
+      "market_share_pct": 50.0,
+      "gain_pct": 0.44475057490395187,
+      "gain_settled_pct": -26.812565654535753,
+      "social_cost_pct": 0.049968811266162844,
+      "p2m_truthful": 4.179989065605749,
+      "p2m_manip": 6.235181550341736
+    },
+    {
+      "n": 4,
+      "market_share_pct": 25.0,
+      "gain_pct": -1.8383291241826298,
+      "gain_settled_pct": -12.005245582634455,
+      "social_cost_pct": 0.0375586513060893,
+      "p2m_truthful": 3.725399234387493,
+      "p2m_manip": 9.276467270788142
+    },
+    {
+      "n": 8,
+      "market_share_pct": 12.5,
+      "gain_pct": -2.962772846015828,
+      "gain_settled_pct": -6.807733329201913,
+      "social_cost_pct": 9.190163999791518e-08,
+      "p2m_truthful": 3.45745532166246,
+      "p2m_manip": 10.440752404767869
+    },
+    {
+      "n": 16,
+      "market_share_pct": 6.25,
+      "gain_pct": -3.2337632704131876,
+      "gain_settled_pct": -3.2381188410429185,
+      "social_cost_pct": -4.154609797338991e-07,
+      "p2m_truthful": 3.621824410125643,
+      "p2m_manip": 11.19982008003899
+    },
+    {
+      "n": 32,
+      "market_share_pct": 3.125,
+      "gain_pct": -3.3210132752598183,
+      "gain_settled_pct": -3.3316579242209476,
+      "social_cost_pct": 1.579909522389101e-07,
+      "p2m_truthful": 3.9228388598144335,
+      "p2m_manip": 11.199061581600725
+    }
+  ],
+  "runtime_s": 8.7
+}
