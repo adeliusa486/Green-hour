@@ -1,12 +1,3 @@
 __pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-.venv/
-venv/
-env/
-.DS_Store
-Thumbs.db
-*.log
-experiments/*.log
-.vscode/
-.idea/
+*.pyc
+data/*.csv
