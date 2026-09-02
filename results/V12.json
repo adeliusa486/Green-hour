@@ -1,0 +1,279 @@
+{
+  "T": 24,
+  "seeds": 4,
+  "ref": {
+    "n": 16,
+    "T": 24,
+    "kappa": 1.0,
+    "lam": 0.0
+  },
+  "rows": [
+    {
+      "axis": "operators n",
+      "value": 2,
+      "nash": 1.0735213551130118,
+      "shade": 0.9999999999999973,
+      "removed": 1.0000000000000362
+    },
+    {
+      "axis": "operators n",
+      "value": 4,
+      "nash": 1.0648209983986865,
+      "shade": 0.9999999999999967,
+      "removed": 1.0000000000000513
+    },
+    {
+      "axis": "operators n",
+      "value": 8,
+      "nash": 1.0678406272024177,
+      "shade": 1.0000000020076754,
+      "removed": 0.9999999704060024
+    },
+    {
+      "axis": "operators n",
+      "value": 16,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "operators n",
+      "value": 32,
+      "nash": 1.0588373259782613,
+      "shade": 1.0002170491365456,
+      "removed": 0.9963110298957871
+    },
+    {
+      "axis": "flexible share x",
+      "value": 0.5,
+      "nash": 1.0652999007762096,
+      "shade": 1.0000054940719008,
+      "removed": 0.9999158640084372
+    },
+    {
+      "axis": "flexible share x",
+      "value": 1.0,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "flexible share x",
+      "value": 2.0,
+      "nash": 1.0577748336158639,
+      "shade": 1.000009962029905,
+      "removed": 0.999827571465264
+    },
+    {
+      "axis": "flexible share x",
+      "value": 4.0,
+      "nash": 1.0634194261295624,
+      "shade": 1.0000118565721963,
+      "removed": 0.999813045104318
+    },
+    {
+      "axis": "flexible share x",
+      "value": 8.0,
+      "nash": 1.0716177492846395,
+      "shade": 1.000021110322449,
+      "removed": 0.9997052361647795
+    },
+    {
+      "axis": "congestion kappa",
+      "value": 0.25,
+      "nash": 1.069523934192777,
+      "shade": 1.0000029218400879,
+      "removed": 0.9999579736083436
+    },
+    {
+      "axis": "congestion kappa",
+      "value": 0.5,
+      "nash": 1.0652999007762096,
+      "shade": 1.0000054940719008,
+      "removed": 0.9999158640084372
+    },
+    {
+      "axis": "congestion kappa",
+      "value": 1.0,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "congestion kappa",
+      "value": 2.0,
+      "nash": 1.0577748336158639,
+      "shade": 1.000009962029905,
+      "removed": 0.999827571465264
+    },
+    {
+      "axis": "congestion kappa",
+      "value": 4.0,
+      "nash": 1.0634194261295624,
+      "shade": 1.0000118565721963,
+      "removed": 0.999813045104318
+    },
+    {
+      "axis": "congestion kappa",
+      "value": 8.0,
+      "nash": 1.0716177492846395,
+      "shade": 1.000021110322449,
+      "removed": 0.9997052361647795
+    },
+    {
+      "axis": "deadline slack (h)",
+      "value": "1-4",
+      "nash": 1.012825985811174,
+      "shade": 1.0001650844642669,
+      "removed": 0.9871289063704511
+    },
+    {
+      "axis": "deadline slack (h)",
+      "value": "2-12",
+      "nash": 1.0154087974377612,
+      "shade": 1.0000051244912451,
+      "removed": 0.9996674308124419
+    },
+    {
+      "axis": "deadline slack (h)",
+      "value": "2-24",
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "deadline slack (h)",
+      "value": "8-24",
+      "nash": 1.0937155906528826,
+      "shade": 1.000014417669025,
+      "removed": 0.999846155064225
+    },
+    {
+      "axis": "envelope cap frac",
+      "value": 0.15,
+      "nash": 1.057507950961272,
+      "shade": 1.000002279320232,
+      "removed": 0.9999603651287554
+    },
+    {
+      "axis": "envelope cap frac",
+      "value": 0.25,
+      "nash": 1.05999105076844,
+      "shade": 1.0000060650681017,
+      "removed": 0.9998989004522498
+    },
+    {
+      "axis": "envelope cap frac",
+      "value": 0.35,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "envelope cap frac",
+      "value": 0.6,
+      "nash": 1.0599775755989926,
+      "shade": 1.0000068817795225,
+      "removed": 0.9998852607919921
+    },
+    {
+      "axis": "envelope cap frac",
+      "value": 1.0,
+      "nash": 1.0599775755989926,
+      "shade": 1.0000068789179883,
+      "removed": 0.9998853085020586
+    },
+    {
+      "axis": "size distribution",
+      "value": "equal",
+      "nash": 1.0591583715006323,
+      "shade": 1.0000086656333464,
+      "removed": 0.9998535180545605
+    },
+    {
+      "axis": "size distribution",
+      "value": "lognormal",
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "size distribution",
+      "value": "heavytail",
+      "nash": 1.0654337009361976,
+      "shade": 1.0000043755764412,
+      "removed": 0.9999331296200801
+    },
+    {
+      "axis": "signal noise sigma",
+      "value": 0.0,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "signal noise sigma",
+      "value": 0.02,
+      "nash": 1.0573478616403835,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998708191555292
+    },
+    {
+      "axis": "signal noise sigma",
+      "value": 0.05,
+      "nash": 1.0541397471434655,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998631643924072
+    },
+    {
+      "axis": "signal noise sigma",
+      "value": 0.1,
+      "nash": 1.0503385997929728,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998528317190831
+    },
+    {
+      "axis": "signal noise sigma",
+      "value": 0.2,
+      "nash": 1.0471563721602595,
+      "shade": 1.0000074082451953,
+      "removed": 0.999842900442593
+    },
+    {
+      "axis": "aggregation error",
+      "value": 0.0,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000074082451953,
+      "removed": 0.9998764820541951
+    },
+    {
+      "axis": "aggregation error",
+      "value": 0.01,
+      "nash": 1.0599770757764717,
+      "shade": 1.0000213220987844,
+      "removed": 0.9996444958593209
+    },
+    {
+      "axis": "aggregation error",
+      "value": 0.05,
+      "nash": 1.0599770757764717,
+      "shade": 1.0002878276315885,
+      "removed": 0.9952010392660485
+    },
+    {
+      "axis": "aggregation error",
+      "value": 0.1,
+      "nash": 1.0599770757764717,
+      "shade": 1.0008082681760122,
+      "removed": 0.9865237148435756
+    },
+    {
+      "axis": "aggregation error",
+      "value": 0.25,
+      "nash": 1.0599770757764717,
+      "shade": 1.0032420526901071,
+      "removed": 0.9459451357350277
+    }
+  ],
+  "note": "SYNTHETIC; one axis at a time, smooth response"
+}

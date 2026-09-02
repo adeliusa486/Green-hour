@@ -61,9 +61,18 @@ python V4_shade_fixpoint.py    # mechanism variants and damping stability
 python V5_bound_and_scaling.py # price-of-anarchy bound, and scaling
 python V6_decomposition.py     # accounting vs strategic split of the gap
 python V7_privacy.py           # privacy sweep at the true round count
+python V8_misreport.py         # strategic misreporting of intentions
+python V9_kappa_gate.py        # where the strategic share clears the 15% gate
+python V10_cliff.py            # does a curtailment cliff raise that share?
 ```
 
 Runtimes range from seconds (V1) to about twenty minutes (V5, V7) on a laptop.
+
+The piecewise-response ("cliff") model lives in `src/gh/cliff.py` and is
+validated by `tests/test_cliff_solver.py`, which certifies optimality via KKT
+rather than by comparison — the objective is convex but its derivative jumps at
+the headroom, so SLSQP converges on only a minority of random instances and is
+kept as a cross-check only.
 
 ## What is here
 
@@ -72,6 +81,7 @@ src/gh/core.py        model, feasible sets, the separable-QP primitive,
                       Nash / planner / wedge-fixed equilibria
 src/gh/instances.py   instance generators
 src/gh/mech.py        SHADE, its four variants, the privacy layer
+src/gh/cliff.py       piecewise ("cliff") dispatch response and its planner
 src/gh/baselines.py   ten baselines
 tests/                solver validation and analytic oracles
 experiments/          one runner per experiment

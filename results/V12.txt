@@ -1,0 +1,53 @@
+                  axis      value |     nash    shade    gap rm
+----------------------------------------------------------------
+           operators n          2 |   1.0735   1.0000    100.0%
+           operators n          4 |   1.0648   1.0000    100.0%
+           operators n          8 |   1.0678   1.0000    100.0%
+           operators n         16 |   1.0600   1.0000    100.0%
+           operators n         32 |   1.0588   1.0002     99.6%
+           operators n         64 |   1.0633   1.0014     97.7%
+
+      flexible share x        0.5 |   1.0653   1.0000    100.0%
+      flexible share x        1.0 |   1.0600   1.0000    100.0%
+      flexible share x        2.0 |   1.0578   1.0000    100.0%
+      flexible share x        4.0 |   1.0634   1.0000    100.0%
+      flexible share x        8.0 |   1.0716   1.0000    100.0%
+
+      congestion kappa       0.25 |   1.0695   1.0000    100.0%
+      congestion kappa        0.5 |   1.0653   1.0000    100.0%
+      congestion kappa        1.0 |   1.0600   1.0000    100.0%
+      congestion kappa        2.0 |   1.0578   1.0000    100.0%
+      congestion kappa        4.0 |   1.0634   1.0000    100.0%
+      congestion kappa        8.0 |   1.0716   1.0000    100.0%
+
+    deadline slack (h)        1-4 |   1.0128   1.0002     98.7%
+    deadline slack (h)       2-12 |   1.0154   1.0000    100.0%
+    deadline slack (h)       2-24 |   1.0600   1.0000    100.0%
+    deadline slack (h)       8-24 |   1.0937   1.0000    100.0%
+
+     envelope cap frac       0.15 |   1.0575   1.0000    100.0%
+     envelope cap frac       0.25 |   1.0600   1.0000    100.0%
+     envelope cap frac       0.35 |   1.0600   1.0000    100.0%
+     envelope cap frac        0.6 |   1.0600   1.0000    100.0%
+     envelope cap frac        1.0 |   1.0600   1.0000    100.0%
+
+     size distribution      equal |   1.0592   1.0000    100.0%
+     size distribution  lognormal |   1.0600   1.0000    100.0%
+     size distribution  heavytail |   1.0654   1.0000    100.0%
+
+    signal noise sigma        0.0 |   1.0600   1.0000    100.0%
+    signal noise sigma       0.02 |   1.0573   1.0000    100.0%
+    signal noise sigma       0.05 |   1.0541   1.0000    100.0%
+    signal noise sigma        0.1 |   1.0503   1.0000    100.0%
+    signal noise sigma        0.2 |   1.0472   1.0000    100.0%
+
+     aggregation error        0.0 |   1.0600   1.0000    100.0%
+     aggregation error       0.01 |   1.0600   1.0000    100.0%
+     aggregation error       0.05 |   1.0600   1.0003     99.5%
+     aggregation error        0.1 |   1.0600   1.0008     98.7%
+     aggregation error       0.25 |   1.0600   1.0032     94.6%
+
+SHADE removes 94.6%-100.0% of the gap across all 39 configurations (median 100.0%).
+wrote C:\Users\adeel\OneDrive\Desktop\AAMAS CONFERNCE PAPER\green-hour\experiments\..\results\V12.json
+
+[exited with code 0]
