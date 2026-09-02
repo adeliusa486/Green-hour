@@ -1,0 +1,19 @@
+loading EIA-930 ...
+  CISO: AEF 106-303, MEF 261-523, daily 667 GWh
+  ERCO: AEF 272-394, MEF 294-409, daily 1324 GWh
+  PJM: AEF 330-361, MEF 351-561, daily 2268 GWh
+
+Method                       CISO     ERCO      PJM     Mean   Gap rm
+--------------------------------------------------------------------
+Carbon-agnostic            1.1561   1.1016   1.1125   1.1234      n/a
+Naive forecast-taking      1.0367   1.0709   1.1834   1.0970   -40.2%
+Static MEF signalling      1.0082   1.0480   1.0107   1.0223    67.8%
+Independent greedy         1.0342   1.0296   1.1438   1.0692     0.0%
+Threshold deferral         1.0627   1.0794   1.1950   1.1124   -62.4%
+Randomized jitter          1.0685   1.0725   1.1313   1.0908   -31.2%
+Proportional cap         INFEASIBLE in 18 runs -- not scored
+SHADE (ours)               1.0066   1.0061   1.0065   1.0064    90.8%
+Responsive MEF             1.0066   1.0061   1.0065   1.0064    90.8%
+Planner (oracle)           1.0000   1.0000   1.0000   1.0000   100.0%
+
+wrote C:\Users\adeel\OneDrive\Desktop\AAMAS CONFERNCE PAPER\green-hour\experiments\..\results\E3.json
