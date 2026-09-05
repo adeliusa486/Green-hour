@@ -1,0 +1,43 @@
+{
+  "note": "REAL GRID (EIA-930) + SYNTHETIC WORKLOAD",
+  "E4": {
+    "Carbon-agnostic": {
+      "p2m": 1.7940996851682027,
+      "uplift": 3.5292876547493943,
+      "viol": 0,
+      "kb": 0.0
+    },
+    "Independent greedy": {
+      "p2m": 5.111948515285311,
+      "uplift": 4.291425341225075,
+      "viol": 0,
+      "kb": 0.0
+    },
+    "Threshold deferral": {
+      "p2m": 7.463329082541204,
+      "uplift": 22.37597217034212,
+      "viol": 0,
+      "kb": 0.0
+    },
+    "Randomized jitter": {
+      "p2m": 3.018143964121961,
+      "uplift": 4.485127020518489,
+      "viol": 0,
+      "kb": 0.0
+    },
+    "SHADE (ours)": {
+      "p2m": 5.995183430153665,
+      "uplift": 6.4746562504588745,
+      "viol": 0,
+      "kb": 30.0
+    }
+  },
+  "E7": {
+    "Full SHADE": 1.0063899306162987,
+    "No externality adder": 1.069190867097677,
+    "No own-load subtraction": 1.0063937716928908,
+    "No own-congestion term": 1.0063971464107562,
+    "No damping ($\\gamma=1$)": 1.0249713909629803,
+    "Adder coarsened to 3\\,h": 1.0399493463367857
+  }
+}
